@@ -1,0 +1,671 @@
+[
+  {
+    "name": "Bagbazar Sarbojonin",
+    "location": "Bagbazar, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Bagbazar+Sarbojonin+Kolkata",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "College Square",
+    "location": "College Street, Kolkata",
+    "theme": "Cambodia's Angkor Wat",
+    "mapUrl": "https://maps.google.com/?q=College+Square+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Ekdalia Evergreen",
+    "location": "Gariahat, Kolkata",
+    "theme": "Tamil Nadu's Arunachaleswarar Temple",
+    "mapUrl": "https://maps.google.com/?q=Ekdalia+Evergreen+Club",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Suruchi Sangha",
+    "location": "New Alipore, Kolkata",
+    "theme": "India's States Showcase",
+    "mapUrl": "https://maps.google.com/?q=Suruchi+Sangha+New+Alipore",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Chetla Agrani",
+    "location": "Chetla, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Chetla+Agrani+Club",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Ballygunge Cultural",
+    "location": "Ballygunge, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Ballygunge+Cultural+Association",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Singhi Park",
+    "location": "Gariahat, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Singhi+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Mudiali Club",
+    "location": "Kalighat, Kolkata",
+    "theme": "Atmasuddhi (Inner Cleansing)",
+    "mapUrl": "https://maps.google.com/?q=Mudiali+Club+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Tridhara Sammilani",
+    "location": "Dhakuria, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Tridhara+Sammilani",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Sreebhumi Sporting Club",
+    "location": "Lake Town, Kolkata",
+    "theme": "Swaminarayan Akshardham (New Jersey, USA)",
+    "mapUrl": "https://maps.google.com/?q=Sreebhumi+Sporting+Club",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Jodhpur Park",
+    "location": "Jodhpur Park, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Jodhpur+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Kashi Bose Lane",
+    "location": "Shyambazar, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Kashi+Bose+Lane+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Behala Friends",
+    "location": "Behala, Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Behala+Friends+Club+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Badamtala Ashar Sangha",
+    "location": "Kalighat, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Badamtala+Ashar+Sangha+Kolkata",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "66 Pally",
+    "location": "Kalighat, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=66+Pally+Kalighat",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Nepal Bhattacharjee Street",
+    "location": "Kalighat, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Nepal+Bhattacharjee+Street+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Deshapriya Park",
+    "location": "Kalighat, South Kolkata",
+    "theme": "Boro Durga",
+    "mapUrl": "https://maps.google.com/?q=Deshapriya+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Samaj Sebi Sangha",
+    "location": "Ballygunge, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Samaj+Sebi+Sangha+Ballygunge",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Hindustan Club",
+    "location": "Ballygunge, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Hindustan+Club+Ballygunge+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Hindusthan Park",
+    "location": "Gariahat, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Hindusthan+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Pratapaditya Road Tricone Park",
+    "location": "Bhowanipore, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Pratapaditya+Road+Tricone+Park+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Bosepukur Sitala Mandir",
+    "location": "Kasba, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Bosepukur+Sitala+Mandir+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Bosepukur Talbagan",
+    "location": "Kasba, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Bosepukur+Talbagan+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "ShibMandir",
+    "location": "Lake Gardens, South Kolkata",
+    "theme": "Bishohari (remover of poison)",
+    "mapUrl": "https://maps.google.com/?q=Shibmandir+Lake+Gardens+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Alipore Sarbojanin",
+    "location": "Alipore, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Alipore+Sarbojanin+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Haridevpur Ajeya Sanghati",
+    "location": "Haridevpur, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Haridevpur+Ajeya+Sanghati+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "41 Pally Club",
+    "location": "Jadavpur/Tollygunge, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=41+Pally+Club+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Vivekananda Athletic Club",
+    "location": "Behala, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Vivekananda+Athletic+Club+Behala+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Barisha Club",
+    "location": "Barisha, South Kolkata",
+    "theme": "Shunno Prithibi (Zero World)",
+    "mapUrl": "https://maps.google.com/?q=Barisha+Club+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Thakurpukur SB Park",
+    "location": "Thakurpukur, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Thakurpukur+SB+Park+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Behala Nutan Dal",
+    "location": "Behala, South Kolkata",
+    "theme": "Antarmahal (The Inner Place)",
+    "mapUrl": "https://maps.google.com/?q=Behala+Nutan+Dal+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Naktala Udayan Sangha",
+    "location": "Garia, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Naktala+Udayan+Sangha+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "75 Pally",
+    "location": "Netaji Bhavan, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=75+Pally+Kolkata+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Chakraberia Sarbojanin",
+    "location": "Bhowanipore, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Chakraberia+Sarbojanin+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Bhawanipur Abasar",
+    "location": "Bhowanipore, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Bhawanipur+Abasar+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Maddox Square",
+    "location": "Jatin Das Park, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Maddox+Square+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Bakul Bagan",
+    "location": "Jatin Das Park, South Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Bakul+Bagan+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Tala Pratyay",
+    "location": "Belgachia, North Kolkata",
+    "theme": "Bij Angan (The Seed Courtyard)",
+    "mapUrl": "https://maps.google.com/?q=Tala+Pratyay+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Tala Park",
+    "location": "Belgachia, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Tala+Park+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Dum Dum Park Bharat Chakra",
+    "location": "Dum Dum Park, North Kolkata",
+    "theme": "The Aura",
+    "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Bharat+Chakra+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Dum Dum Park Tarun Dal",
+    "location": "Dum Dum Park, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Tarun+Dal+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Dum Dum Park Tarun Sangha",
+    "location": "Dum Dum Park, North Kolkata",
+    "theme": "Satyanweshi Byomkesh",
+    "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Tarun+Sangha+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Dum Dum Park Sarbojanin",
+    "location": "Dum Dum Park, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Laketown Association",
+    "location": "Lake Town, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Lake+Town+Association+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Dakshinpara Sarbojanin",
+    "location": "Near Dum Dum Park, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Dakshinpara+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Jagat Mukherjee Park",
+    "location": "Shyambazar, North Kolkata",
+    "theme": "Artificial Intelligence: A Blessing or a Curse?",
+    "mapUrl": "https://maps.google.com/?q=Jagat+Mukherjee+Park+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Friends Union",
+    "location": "Shyambazar, North Kolkata",
+    "theme": "Local and Global Aesthetics (Burj Khalifa and Palm Jumeirah replicas)",
+    "mapUrl": "https://maps.google.com/?q=Friends+Union+Durga+Puja+Shyambazar",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Shyam Square",
+    "location": "Shyambazar, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Shyam+Square+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Ahiritola Sarbojanin",
+    "location": "Sovabazar, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Ahiritola+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Beniatola",
+    "location": "Sovabazar, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Beniatola+Sarbajanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Kumartuli Sarbojanin",
+    "location": "Kumartuli, North Kolkata",
+    "theme": "Potrosobha (Assembly of Leaves)",
+    "mapUrl": "https://maps.google.com/?q=Kumartuli+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Kumartuli Park",
+    "location": "Kumartuli, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Kumartuli+Park+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Hatibagan Nabin Pally",
+    "location": "Hatibagan, North Kolkata",
+    "theme": "Amader Desh (Our Country)",
+    "mapUrl": "https://maps.google.com/?q=Hatibagan+Nabin+Pally+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Nalin Sarkar Street",
+    "location": "Hatibagan, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Nalin+Sarkar+Street+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Hatibagan Sarbojanin",
+    "location": "Hatibagan, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Hatibagan+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Sikdar Bagan",
+    "location": "North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Sikdar+Bagan+Sarbajanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Gouriberia",
+    "location": "North Kolkata",
+    "theme": "Soil",
+    "mapUrl": "https://maps.google.com/?q=Gouriberia+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Telenga Bagan",
+    "location": "North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Telenga+Bagan+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Karbagan",
+    "location": "North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Karbagan+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Simla Byayam Samity",
+    "location": "Girish Park, North Kolkata",
+    "theme": "Sholay@50",
+    "mapUrl": "https://maps.google.com/?q=Simla+Byayam+Samity+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Pathuriaghata Pancher Pally",
+    "location": "Girish Park, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Pathuriaghata+Pancher+Pally+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Chaltabagan",
+    "location": "Girish Park, North Kolkata",
+    "theme": "Ami Banglay Bolchhi (I am speaking in Bengali)",
+    "mapUrl": "https://maps.google.com/?q=Chaltabagan+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Chorebagan Sarbojanin",
+    "location": "Girish Park, North Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Chorebagan+Sarbojanin+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Mohammad Ali Park",
+    "location": "MG Road, Central Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Mohammad+Ali+Park+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Sealdah Athletic Club",
+    "location": "MG Road/Sealdah, Central Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Sealdah+Athletic+Club+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Santosh Mitra Square (Lebutala)",
+    "location": "Central Kolkata",
+    "theme": "Operation Sindoor",
+    "mapUrl": "https://maps.google.com/?q=Santosh+Mitra+Square+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Lebutala Park",
+    "location": "Central Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Lebutala+Park+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Subodh Mallick Square",
+    "location": "Chandni Chowk, Central Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Subodh+Mallick+Square+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Taltala Sarbojanin",
+    "location": "Taltala, Central Kolkata",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=Taltala+Sarbojanin+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "AJ Block",
+    "location": "Karunamoyee, Salt Lake",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=AJ+Block+Salt+Lake+Puja",
+    "zone": "EAST WEST METRO"
+  },
+  {
+    "name": "AK Block",
+    "location": "Karunamoyee, Salt Lake",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=AK+Block+Salt+Lake+Puja",
+    "zone": "EAST WEST METRO"
+  },
+  {
+    "name": "FD Block",
+    "location": "City Centre, Salt Lake",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=FD+Block+Salt+Lake+Puja",
+    "zone": "EAST WEST METRO"
+  },
+  {
+    "name": "New Town Sarbojanin",
+    "location": "Sector V / New Town",
+    "theme": "Durga Puja 2025",
+    "mapUrl": "https://maps.google.com/?q=New+Town+Sarbojanin+Puja",
+    "zone": "EAST WEST METRO"
+  }
+,
+  {
+    "name": "Bagbazar Sarbojonin",
+    "location": "Bagbazar, Kolkata",
+    "theme": "Heritage Bengal",
+    "mapUrl": "https://maps.google.com/?q=Bagbazar+Sarbojonin+Kolkata",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "College Square",
+    "location": "College Street, Kolkata",
+    "theme": "Traditional Lakshmi Kutir",
+    "mapUrl": "https://maps.google.com/?q=College+Square+Durga+Puja",
+    "zone": "CENTRAL KOLKATA"
+  },
+  {
+    "name": "Ekdalia Evergreen",
+    "location": "Gariahat, Kolkata",
+    "theme": "Global Cultures in Clay",
+    "mapUrl": "https://maps.google.com/?q=Ekdalia+Evergreen+Club",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Suruchi Sangha",
+    "location": "New Alipore, Kolkata",
+    "theme": "India's States Showcase",
+    "mapUrl": "https://maps.google.com/?q=Suruchi+Sangha+New+Alipore",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Chetla Agrani",
+    "location": "Chetla, Kolkata",
+    "theme": "Folk Art Revival",
+    "mapUrl": "https://maps.google.com/?q=Chetla+Agrani+Club",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Ballygunge Cultural",
+    "location": "Ballygunge, Kolkata",
+    "theme": "Sustainable Bamboo Temple",
+    "mapUrl": "https://maps.google.com/?q=Ballygunge+Cultural+Association",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Singhi Park",
+    "location": "Gariahat, Kolkata",
+    "theme": "Golden Era of Cinema",
+    "mapUrl": "https://maps.google.com/?q=Singhi+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Mudiali Club",
+    "location": "Kalighat, Kolkata",
+    "theme": "River & Mangrove Ecosystems",
+    "mapUrl": "https://maps.google.com/?q=Mudiali+Club+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Tridhara Sammilani",
+    "location": "Dhakuria, Kolkata",
+    "theme": "Terracotta Terrains",
+    "mapUrl": "https://maps.google.com/?q=Tridhara+Sammilani",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Sreebhumi Sporting Club",
+    "location": "Lake Town, Kolkata",
+    "theme": "Palatial Grandeur",
+    "mapUrl": "https://maps.google.com/?q=Sreebhumi+Sporting+Club",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Jodhpur Park",
+    "location": "Jodhpur Park, Kolkata",
+    "theme": "Art Deco Revival",
+    "mapUrl": "https://maps.google.com/?q=Jodhpur+Park+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  },
+  {
+    "name": "Kashi Bose Lane",
+    "location": "Shyambazar, Kolkata",
+    "theme": "Minimalist Sanctum",
+    "mapUrl": "https://maps.google.com/?q=Kashi+Bose+Lane+Durga+Puja",
+    "zone": "NORTH KOLKATA"
+  },
+  {
+    "name": "Behala Friends",
+    "location": "Behala, Kolkata",
+    "theme": "Threads of Tradition",
+    "mapUrl": "https://maps.google.com/?q=Behala+Friends+Club+Durga+Puja",
+    "zone": "SOUTH KOLKATA"
+  }
+  ,
+  { "name": "Badamtala Ashar Sangha", "location": "Kalighat, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Badamtala+Ashar+Sangha+Kolkata", "zone": "SOUTH KOLKATA" },
+  { "name": "66 Pally", "location": "Kalighat, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=66+Pally+Kalighat", "zone": "SOUTH KOLKATA" },
+  { "name": "Nepal Bhattacharjee Street", "location": "Kalighat, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Nepal+Bhattacharjee+Street+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Deshapriya Park", "location": "Kalighat, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Deshapriya+Park+Durga+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Samaj Sebi Sangha", "location": "Ballygunge, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Samaj+Sebi+Sangha+Ballygunge", "zone": "SOUTH KOLKATA" },
+  { "name": "Hindustan Club", "location": "Ballygunge, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Hindustan+Club+Ballygunge+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Hindusthan Park", "location": "Gariahat, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Hindusthan+Park+Durga+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Pratapaditya Road Tricone Park", "location": "Bhowanipore, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Pratapaditya+Road+Tricone+Park+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Bosepukur Sitala Mandir", "location": "Kasba, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Bosepukur+Sitala+Mandir+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Bosepukur Talbagan", "location": "Kasba, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Bosepukur+Talbagan+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "ShibMandir", "location": "Lake Gardens, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Shibmandir+Lake+Gardens+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Alipore Sarbojanin", "location": "Alipore, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Alipore+Sarbojanin+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Haridevpur Ajeya Sanghati", "location": "Haridevpur, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Haridevpur+Ajeya+Sanghati+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "41 Pally Club", "location": "Jadavpur/Tollygunge, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=41+Pally+Club+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Vivekananda Athletic Club", "location": "Behala, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Vivekananda+Athletic+Club+Behala+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Barisha Club", "location": "Barisha, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Barisha+Club+Durga+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Thakurpukur SB Park", "location": "Thakurpukur, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Thakurpukur+SB+Park+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Behala Nutan Dal", "location": "Behala, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Behala+Nutan+Dal+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Naktala Udayan Sangha", "location": "Garia, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Naktala+Udayan+Sangha+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "75 Pally", "location": "Netaji Bhavan, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=75+Pally+Kolkata+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Chakraberia Sarbojanin", "location": "Bhowanipore, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Chakraberia+Sarbojanin+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Bhawanipur Abasar", "location": "Bhowanipore, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Bhawanipur+Abasar+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Maddox Square", "location": "Jatin Das Park, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Maddox+Square+Puja", "zone": "SOUTH KOLKATA" },
+  { "name": "Bakul Bagan", "location": "Jatin Das Park, South Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Bakul+Bagan+Puja", "zone": "SOUTH KOLKATA" },
+
+  { "name": "Tala Pratyay", "location": "Belgachia, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Tala+Pratyay+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Tala Park", "location": "Belgachia, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Tala+Park+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Dum Dum Park Bharat Chakra", "location": "Dum Dum Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Bharat+Chakra+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Dum Dum Park Tarun Dal", "location": "Dum Dum Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Tarun+Dal+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Dum Dum Park Tarun Sangha", "location": "Dum Dum Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Tarun+Sangha+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Dum Dum Park Sarbojanin", "location": "Dum Dum Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Dum+Dum+Park+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Laketown Association", "location": "Lake Town, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Lake+Town+Association+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Dakshinpara Sarbojanin", "location": "Near Dum Dum Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Dakshinpara+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Jagat Mukherjee Park", "location": "Shyambazar, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Jagat+Mukherjee+Park+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Friends Union", "location": "Shyambazar, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Friends+Union+Durga+Puja+Shyambazar", "zone": "NORTH KOLKATA" },
+  { "name": "Shyam Square", "location": "Shyambazar, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Shyam+Square+Durga+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Ahiritola Sarbojanin", "location": "Sovabazar, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Ahiritola+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Beniatola", "location": "Sovabazar, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Beniatola+Sarbajanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Kumartuli Sarbojanin", "location": "Kumartuli, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Kumartuli+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Kumartuli Park", "location": "Kumartuli, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Kumartuli+Park+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Hatibagan Nabin Pally", "location": "Hatibagan, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Hatibagan+Nabin+Pally+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Nalin Sarkar Street", "location": "Hatibagan, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Nalin+Sarkar+Street+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Hatibagan Sarbojanin", "location": "Hatibagan, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Hatibagan+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Sikdar Bagan", "location": "North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Sikdar+Bagan+Sarbajanin+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Gouriberia", "location": "North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Gouriberia+Durga+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Telenga Bagan", "location": "North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Telenga+Bagan+Durga+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Karbagan", "location": "North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Karbagan+Durga+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Simla Byayam Samity", "location": "Girish Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Simla+Byayam+Samity+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Pathuriaghata Pancher Pally", "location": "Girish Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Pathuriaghata+Pancher+Pally+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Chaltabagan", "location": "Girish Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Chaltabagan+Durga+Puja", "zone": "NORTH KOLKATA" },
+  { "name": "Chorebagan Sarbojanin", "location": "Girish Park, North Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Chorebagan+Sarbojanin+Puja", "zone": "NORTH KOLKATA" },
+
+  { "name": "Mohammad Ali Park", "location": "MG Road, Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Mohammad+Ali+Park+Durga+Puja", "zone": "CENTRAL KOLKATA" },
+  { "name": "Sealdah Athletic Club", "location": "MG Road/Sealdah, Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Sealdah+Athletic+Club+Durga+Puja", "zone": "CENTRAL KOLKATA" },
+  { "name": "Santosh Mitra Square (Lebutala)", "location": "Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Santosh+Mitra+Square+Durga+Puja", "zone": "CENTRAL KOLKATA" },
+  { "name": "Lebutala Park", "location": "Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Lebutala+Park+Durga+Puja", "zone": "CENTRAL KOLKATA" },
+  { "name": "Subodh Mallick Square", "location": "Chandni Chowk, Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Subodh+Mallick+Square+Puja", "zone": "CENTRAL KOLKATA" },
+  { "name": "Taltala Sarbojanin", "location": "Taltala, Central Kolkata", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=Taltala+Sarbojanin+Puja", "zone": "CENTRAL KOLKATA" },
+
+  { "name": "AJ Block", "location": "Karunamoyee, Salt Lake", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=AJ+Block+Salt+Lake+Puja", "zone": "EAST WEST METRO" },
+  { "name": "AK Block", "location": "Karunamoyee, Salt Lake", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=AK+Block+Salt+Lake+Puja", "zone": "EAST WEST METRO" },
+  { "name": "FD Block", "location": "City Centre, Salt Lake", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=FD+Block+Salt+Lake+Puja", "zone": "EAST WEST METRO" },
+  { "name": "New Town Sarbojanin", "location": "Sector V / New Town", "theme": "Durga Puja 2025", "mapUrl": "https://maps.google.com/?q=New+Town+Sarbojanin+Puja", "zone": "EAST WEST METRO" }
+]
+
+

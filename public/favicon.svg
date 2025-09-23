@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#b71c1c"/>
+      <stop offset="1" stop-color="#ef6c00"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#fff9f0"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <path d="M18 40c6-2 8-12 14-18 3-3 7-4 10-2-2 1-4 4-5 7 4-3 9-3 11-1-6 4-9 10-10 16-3 1-9 1-20-2Z" fill="#c9a227" opacity=".9"/>
+  <text x="32" y="39" text-anchor="middle" font-family="'Noto Sans Bengali', system-ui, sans-serif" font-weight="700" font-size="18" fill="#b71c1c">ভব</text>
+</svg>
+

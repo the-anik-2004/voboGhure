@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-gray-800 antialiased;
+}
+
+.gold-gradient {
+  background: linear-gradient(90deg, #c9a227 0%, #ffd700 50%, #c9a227 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Decorative Bengali alpana border (light, repeats horizontally) */
+.bg-alpona {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='72' viewBox='0 0 480 72'><rect width='480' height='72' fill='white'/><g fill='none' stroke='%23d6d3cd' stroke-width='2'><path d='M0 70 C 20 30, 60 30, 80 70 M80 70 C 100 30, 140 30, 160 70 M160 70 C 180 30, 220 30, 240 70 M240 70 C 260 30, 300 30, 320 70 M320 70 C 340 30, 380 30, 400 70 M400 70 C 420 30, 460 30, 480 70' /><circle cx='40' cy='50' r='8' stroke='%23e5e3de'/><circle cx='120' cy='50' r='8' stroke='%23e5e3de'/><circle cx='200' cy='50' r='8' stroke='%23e5e3de'/><circle cx='280' cy='50' r='8' stroke='%23e5e3de'/><circle cx='360' cy='50' r='8' stroke='%23e5e3de'/><circle cx='440' cy='50' r='8' stroke='%23e5e3de'/></g></svg>");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 720px 108px;
+}
+
+/* Soft festive background: repeating alpana motifs and floating confetti dots */
+.bg-festive {
+  background-image:
+    radial-gradient(ellipse at top left, rgba(239,108,0,0.05), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(199,162,39,0.06), transparent 50%);
+}
+
+.float-slow {
+  animation: floatY 6s ease-in-out infinite;
+}
+.pulse-soft { animation: pulseSoft 3s ease-in-out infinite; }
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+.shine::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.25) 40%, transparent 80%);
+  transform: translateX(-100%);
+  animation: shine 5s linear infinite;
+}
+
+@keyframes floatY {
+  0%,100% { transform: translateY(0px) }
+  50% { transform: translateY(-6px) }
+}
+@keyframes pulseSoft {
+  0%,100% { box-shadow: 0 6px 20px rgba(239,108,0,0.0) }
+  50% { box-shadow: 0 8px 24px rgba(239,108,0,0.15) }
+}
+@keyframes shine {
+  0% { transform: translateX(-100%) }
+  100% { transform: translateX(100%) }
+}
+
+/* Unique per-card animation tags */
+.anim-tilt { transition: transform .4s ease; }
+.anim-tilt:hover { transform: translateY(-4px) rotate(-.5deg); }
+.anim-rise { transition: transform .4s ease; }
+.anim-rise:hover { transform: translateY(-6px); }
+.anim-pop { transition: transform .2s ease; }
+.anim-pop:hover { transform: scale(1.02); }
+.anim-wobble { transition: transform .4s ease; }
+.anim-wobble:hover { transform: rotate(.6deg); }
+.anim-glow:hover { box-shadow: 0 10px 28px rgba(201,162,39,.25); }
+
+/* Footer background overlay helper */
+.footer-bg {
+  background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), url('https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Full-page subtle background video */
+.video-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.video-bg video { width: 100%; height: 100%; object-fit: cover; opacity: .18; filter: saturate(1.1) contrast(1.05); }
+.video-overlay { position: fixed; inset: 0; z-index: -1; background: radial-gradient(ellipse at center, rgba(255,247,229,.35), rgba(255,247,229,.15) 40%, rgba(255,247,229,0) 65%), linear-gradient(to bottom, rgba(255,255,255,.25), rgba(255,255,255,0)); }
+
+
