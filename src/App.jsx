@@ -234,34 +234,39 @@ export default function App() {
 
         </section>
 
-        <section className="space-y-10">
-          {['NORTH KOLKATA','SOUTH KOLKATA','CENTRAL KOLKATA','EAST WEST METRO'].map((zone) => (
-            <div key={zone}>
-              <div className="flex items-center gap-3 mb-4">
-                <h2 className="text-xl font-bold text-festiveGold">{zone}</h2>
-                <span className="text-xs text-gray-500">{groups[zone].length}</span>
-              </div>
-              {groups[zone].length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {groups[zone].map((pandal, idx) => (
-                    <div key={pandal.name} className={[
-                      'shine',
-                      idx % 5 === 0 ? 'anim-tilt' : idx % 5 === 1 ? 'anim-rise' : idx % 5 === 2 ? 'anim-pop' : idx % 5 === 3 ? 'anim-wobble' : 'anim-glow'
-                    ].join(' ')}>
-                      <PandalCard {...pandal} onDirections={handleDirections} />
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-sm text-gray-500">No pandals in this section.</p>
-              )}
-            </div>
-          ))}
+   <section className="space-y-10">
+  {['NORTH KOLKATA','SOUTH KOLKATA','CENTRAL KOLKATA','EAST WEST METRO','OTHERS'].map((zone) => {
+    const pandalsInZone = groups[zone] || [];
+    return (
+      <div key={zone}>
+        <div className="flex items-center gap-3 mb-4">
+          <h2 className="text-xl font-bold text-festiveGold">{zone}</h2>
+          <span className="text-xs text-gray-500">{pandalsInZone.length}</span>
+        </div>
 
-          {filtered.length === 0 && (
-            <p className="text-center text-gray-600">No pandals found. Try a different search.</p>
-          )}
-        </section>
+        {pandalsInZone.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {pandalsInZone.map((pandal, idx) => (
+              <div key={pandal.name} className={[
+                'shine',
+                idx % 5 === 0 ? 'anim-tilt' : idx % 5 === 1 ? 'anim-rise' : idx % 5 === 2 ? 'anim-pop' : idx % 5 === 3 ? 'anim-wobble' : 'anim-glow'
+              ].join(' ')}>
+                <PandalCard {...pandal} onDirections={handleDirections} />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-gray-500">No pandals in this section.</p>
+        )}
+      </div>
+    )
+  })}
+
+  {filtered.length === 0 && (
+    <p className="text-center text-gray-600">No pandals found. Try a different search.</p>
+  )}
+</section>
+
       </main>
 
       <footer className="footer-bg text-gray-100">
