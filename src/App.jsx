@@ -27,7 +27,7 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [debouncedQuery, setDebouncedQuery] = useState('')
   const [origin, setOrigin] = useState(null)
-  const [visitCount, setVisitCount] = useState(null)
+  const [visitCount, setVisitCount] = useState(8)
 
   useEffect(() => {
     if (!('geolocation' in navigator)) return
@@ -49,12 +49,15 @@ export default function App() {
     return () => clearTimeout(id)
   }, [query])
 
-  // Visit counter using CountAPI (no backend needed)
-  useEffect(() => {
-    const namespace = 'voboghure-puja-2025'
-    const key = 'site-visits'
-    const base = 'https://api.countapi.xyz'
+// Visit counter using GetCount.io (no backend needed)
 
+  useEffect(() => {
+    // --- CONFIG ---
+    const namespace = 'voboghure-puja-2025' // Must be a simple string
+    const key = 'site-visits'               // You can change this per page if needed
+    const base = 'https://api.getcount.io'  // API server
+
+    // --- HELPER FUNCTIONS ---
     const setValue = (value) => {
       if (typeof value === 'number') setVisitCount(value)
     }
@@ -72,7 +75,9 @@ export default function App() {
         const res = await fetch(`${base}/get/${encodeURIComponent(namespace)}/${encodeURIComponent(key)}`)
         const data = await res.json()
         setValue(data.value)
-      } catch {}
+      } catch (err) {
+        console.error('Read failed:', err)
+      }
     }
 
     const increment = async () => {
@@ -81,18 +86,20 @@ export default function App() {
         const data = await res.json()
         setValue(data.value)
         markVisited()
-      } catch {
-        // If increment fails, at least try reading current count
-        readCount()
+      } catch (err) {
+        console.error('Increment failed:', err)
+        readCount() // fallback
       }
     }
 
+    // --- MAIN LOGIC ---
     if (hasVisited) {
       readCount()
     } else {
       increment()
     }
   }, [])
+
 
   const normalize = (s) => s
     .toLowerCase()
