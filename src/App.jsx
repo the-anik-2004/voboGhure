@@ -27,7 +27,7 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [debouncedQuery, setDebouncedQuery] = useState('')
   const [origin, setOrigin] = useState(null)
-  const [visitCount, setVisitCount] = useState(8)
+  const [visitCount, setVisitCount] = useState(null)
 
   useEffect(() => {
     if (!('geolocation' in navigator)) return
@@ -52,61 +52,46 @@ export default function App() {
 // Visit counter using GetCount.io (no backend needed)
 
   useEffect(() => {
-    // --- CONFIG ---
-    const namespace = 'voboghure-puja-2025' // Must be a simple string
-    const key = 'site-visits'               // You can change this per page if needed
-    const base = 'https://api.getcount.io'  // API server
+    const namespace = 'voboghure-puja-2025'; // unique site identifier
+    const key = 'site-visits';               // specific counter name
+    const base = 'https://api.counterapi.dev/v1';
 
-    // --- HELPER FUNCTIONS ---
-    const setValue = (value) => {
-      if (typeof value === 'number') setVisitCount(value)
-    }
+    // Prevent multiple increments per visitor
+    const hasVisited = localStorage.getItem('puja2025_visited') === '1';
 
     const markVisited = () => {
-      try { localStorage.setItem('puja2025_visited', '1') } catch {}
-    }
+      try { localStorage.setItem('puja2025_visited', '1'); } catch {}
+    };
 
-    const hasVisited = (() => {
-      try { return localStorage.getItem('puja2025_visited') === '1' } catch { return false }
-    })()
-
-    const readCount = async () => {
+    const fetchCount = async (increment = false) => {
       try {
-        const res = await fetch(`${base}/get/${encodeURIComponent(namespace)}/${encodeURIComponent(key)}`)
-        const data = await res.json()
-        setValue(data.value)
+        const url = increment
+          ? `${base}/${namespace}/${key}/UP`
+          : `${base}/${namespace}/${key}/`;
+        const res = await fetch(url);
+        const data = await res.json();
+        if (typeof data.count === 'number') setVisitCount(data.count);
+        if (increment) markVisited();
       } catch (err) {
-        console.error('Read failed:', err)
+        console.error('Error fetching visitor count:', err);
       }
-    }
+    };
 
-    const increment = async () => {
-      try {
-        const res = await fetch(`${base}/hit/${encodeURIComponent(namespace)}/${encodeURIComponent(key)}`)
-        const data = await res.json()
-        setValue(data.value)
-        markVisited()
-      } catch (err) {
-        console.error('Increment failed:', err)
-        readCount() // fallback
-      }
-    }
-
-    // --- MAIN LOGIC ---
     if (hasVisited) {
-      readCount()
+      fetchCount(false); 
     } else {
-      increment()
+      fetchCount(true);  
     }
-  }, [])
+  }, []);
+
 
 
   const normalize = (s) => s
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // strip diacritics (broadly supported)
+    .replace(/[\u0300-\u036f]/g, '') 
     .replace(/[^a-z0-9\s]/g, ' ')
-    .replace(/\s+/g, ' ') // collapse spaces
+    .replace(/\s+/g, ' ') 
     .trim()
 
   const filtered = useMemo(() => {
@@ -233,13 +218,20 @@ export default function App() {
         <section className="text-center mb-8">
           <h1 className="text-3xl md:text-5xl font-extrabold gold-gradient">Durga Puja Pandal Guide 2025</h1>
           <p className="mt-3 text-gray-700">Find the best pandals near you</p>
-          <div className="mt-4 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-yellow-200 bg-gradient-to-r from-yellow-50 to-amber-50 text-amber-700 shadow-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-              <path d="M10 3c-4.5 0-8 4.5-8 7s3.5 7 8 7 8-4.5 8-7-3.5-7-8-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
-            </svg>
-            <span className="text-sm font-medium">Visitors</span>
-            <span className="text-sm font-semibold text-festiveRed">{visitCount ?? '—'}</span>
-          </div>
+
+{
+    visitCount !== null && (
+                  <div className="mt-4 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-red-200 bg-gradient-to-r from-yellow-50 to-amber-50 text-amber-700 shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                      <path d="M10 3c-4.5 0-8 4.5-8 7s3.5 7 8 7 8-4.5 8-7-3.5-7-8-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
+                    </svg>
+                    <span className="text-sm font-medium">Visitors</span>
+                    <span className="text-sm font-semibold text-festiveRed">{visitCount ?? '—'}</span>
+                  </div>
+    )
+}
+         
+
         </section>
 
         <section className="space-y-10">
